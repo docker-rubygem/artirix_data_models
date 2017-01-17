@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.21.1
+ENV VERSION=0.6.7
 
 RUN gem install artirix_data_models --version ${VERSION} --no-format-exec
 
